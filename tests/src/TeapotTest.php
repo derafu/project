@@ -16,8 +16,13 @@ use Derafu\Project\Teapot;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * Test for the Teapot class.
+ *
+ * It's a example test that covers the Teapot class.
+ */
 #[CoversClass(Teapot::class)]
-class TeapotTest extends TestCase
+final class TeapotTest extends TestCase
 {
     public function testDummyAssertTrue(): void
     {

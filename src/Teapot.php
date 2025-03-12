@@ -12,8 +12,16 @@ declare(strict_types=1);
 
 namespace Derafu\Project;
 
-class Teapot
+/**
+ * Represents a teapot.
+ *
+ * It's a example class that returns a string when converted to a string.
+ */
+final class Teapot
 {
+    /**
+     * {@inheritDoc}
+     */
     public function __toString(): string
     {
         return "I'm a teapot";
