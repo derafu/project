@@ -2,7 +2,7 @@
     "name": "derafu/project",
     "description": "Derafu: Project - Slogan",
     "type": "project",
-    "homepage": "https://derafu.org/foundation",
+    "homepage": "https://www.derafu.dev/docs/core/foundation",
     "license": "MIT",
     "authors": [
         {
